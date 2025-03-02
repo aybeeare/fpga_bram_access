@@ -12,6 +12,27 @@ software and firmware should be modular, easy to follow, and well documented. RT
 well commented as well. These practices enable future me and whoever else is interested to be able to pick up where I left off
 with ease and hopefully joy.  
 
+Hardware Required for Project Implementation:
+
+- Digilent Arty S7-50 dev board
+- USB to UART Converter Cable
+- Arduino-based MCU board
+
+Additional Recommended Hardware (optional): 
+- Logic analyzer
+- Power supply (can get away with powering via USB hub but gets messy)
+
+Software Required for Project Implementation:
+- Vivado 2024+ (I used Vivado 2024.2)
+- Arduino IDE (version 2.3+)
+- Python 3.8+
+
+Technology Stack:
+- Host PC Software (written in Python), running Windows 11 OS
+- MCU Software (written in C/C++)
+- Firmware (written in SystemVerilog)
+  
+
 
 
 
